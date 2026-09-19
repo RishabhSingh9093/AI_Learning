@@ -10,7 +10,7 @@ class Employee:
         return '{} {}'.format(self.first, self.last)
 
     def raise_sal(self):
-        return self.pay * 1.05
+        return self.pay * 1.06
     
 Emp1 = Employee('Rishabh', 'Singh', 10000)
 
